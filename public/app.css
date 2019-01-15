@@ -1,0 +1,158 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.app {
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+header {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+    color: white;
+    background-color: #37474F;
+    padding: 14px 0;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.app > .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 30px 0;
+}
+
+.editable-timer-list {
+    margin-bottom: 40px;
+}
+
+.editable-timer-list > li:not(:first-child) {
+    margin-top: 30px;
+}
+
+.editable-timer {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+}
+
+.timer > .title {
+    font-size: 20px;
+}
+
+.timer > .project {
+    margin-top: 4px;
+    color: #aaaaaa;
+}
+
+.timer > .time {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+.timer > .actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timer > .actions > .action:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.timer > .actions > .action:not(:first-child) {
+    margin-left: 10px;
+}
+
+.timer > .button-container {
+    margin-top: 20px;
+}
+
+.timer > .button-container > button {
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    padding: 4px 0;
+}
+
+.timer > .button-container > button.green {
+    background-color: #4CAF50;
+    border-radius: 4px;
+}
+
+.timer-form .form-control > input {
+    margin-top: 10px;
+}
+
+.timer-form .form-control.project {
+    margin-top: 20px;
+}
+
+.timer-form .form-control > input[type='text'] {
+    width: 100%;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    padding: 6px 14px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.timer-form .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-form .actions > button {
+    width: 48%;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+    padding: 6px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.timer-form .actions > button.blue {
+    background-color: #0277BD;
+}
+
+.timer-form .actions > button.red {
+    background-color: #c62828;
+}
+
+.toggleable-timer-form > .action {
+    display: flex;
+}
+
+.toggleable-timer-form > .action i {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.toggleable-timer-form > .action i:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
