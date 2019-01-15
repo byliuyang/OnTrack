@@ -47,9 +47,13 @@ header {
 
 .toggleable-timer-form {
     min-height: 260px;
+    padding: 0 20px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FAFAFA;
+    border-radius: 4px;
 }
 
 .toggleable-timer-form > .timer-form {
