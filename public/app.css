@@ -110,11 +110,15 @@ header {
     width: 100%;
     font-size: 22px;
     padding: 4px 0;
+    border-radius: 4px;
 }
 
 .timer > .button-container > button.green {
     background-color: #4CAF50;
-    border-radius: 4px;
+}
+
+.timer > .button-container > button.red {
+    background-color: #c62828;
 }
 
 .timer-form .form-control > input {
